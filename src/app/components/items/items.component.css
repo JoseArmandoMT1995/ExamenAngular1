@@ -1,0 +1,74 @@
+h4{
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    padding-right: 0;
+    padding-left: 0;
+
+}
+.row.tabla div{
+    text-align: center;
+}
+.row{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+.row div{
+    
+    border-top: 1px solid rgb(114, 113, 113);
+    border-bottom: 1px solid rgb(114, 113, 113);
+    border-right: 1px solid rgb(114, 113, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row div:last-child{
+    border-right: none !important;
+}
+.row.tabla div.nombre{
+    width: 25%;
+}
+.row.tabla div.sexo{
+    width: 12%;
+}
+.row.tabla div.direccion{
+    width: 25%;
+}
+.row.tabla div.curp{
+    width: 25%;
+}
+.row.tabla div.fechaNacimiento{
+    width: 13%;
+}
+
+@media only screen and (max-width: 992px) {
+
+    main{
+        margin-top: 8%;
+        align-items: flex-start;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    app-item,.row.tabla{
+        font-size: .7em;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    app-item,.row.tabla{
+        font-size: .5em;
+        font-weight: bolder;
+    }
+  }
+  

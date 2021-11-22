@@ -1,0 +1,24 @@
+
+    <h4 class="mt-2">NUEVO REGISTRO</h4>
+    <form action="" class="container mt-5 mb-5" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Nombre</label>
+      <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Nombre" name="nombre" id="nombre" [(ngModel)]="nombre">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Apellidos</label>
+      <input type="text" class="form-control" placeholder="Apellido" name="apellidos" id="apellidos" [(ngModel)]="apellidos">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Direccion</label>
+        <input type="text" class="form-control" placeholder="Direccion" name="direccion" id="direccion" [(ngModel)]="direccion">
+
+      </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Curp</label>
+        <input type="text" class="form-control" placeholder="Curp" name="curp" id="curp" [(ngModel)]="curp">
+      </div>
+    <div class="boton">
+      <button type="submit" class="btn btn-primary">Crear</button>
+    </div>
+  </form>

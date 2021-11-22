@@ -1,0 +1,17 @@
+<h4 class="mt-2">REGISTROS</h4>
+<main>
+
+  <div class="contenedor">
+    <div class="row tabla">
+      <div class="nombre">NOMBRE</div>
+      <div class="sexo">SEXO</div>
+      <div class="direccion">DIRECCION</div>
+      <div class="curp">CURP</div>
+      <div class="fechaNacimiento">FECHA DE NACIMIENTO</div>
+    </div>
+    <app-item *ngFor="let item of items" [item]="item" (delateItem)=delateItem($event) class="container">
+      <!--{{item.title}}-->
+    </app-item>
+
+  </div>
+</main>

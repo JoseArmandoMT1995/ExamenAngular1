@@ -1,0 +1,11 @@
+h4{
+    text-align: center;
+}
+.boton{
+    display: flex;
+    justify-content: center;   
+}
+.boton button{
+    padding-left: 50px;
+    padding-right: 50px;
+}

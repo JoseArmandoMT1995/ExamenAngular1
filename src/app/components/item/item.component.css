@@ -1,0 +1,39 @@
+.row{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.row div{
+    padding: .5em;
+    border-bottom: 1px solid rgb(114, 113, 113);
+    border-right: 1px solid rgb(114, 113, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+.row div:last-child{
+    border-right: none !important;
+}
+.row div.nombre{
+    width: 25%;
+}
+.row div.sexo{
+    width: 12%;
+}
+.row div.direccion{
+    width: 25%;
+}
+.row div.curp{
+    width: 25%;
+}
+.row div.fechaNacimiento{
+    width: 13%;
+}
+.row.tabla:hover{
+    background: #000 !important;
+    color: cornsilk !important;
+    font-weight: bolder;
+}
